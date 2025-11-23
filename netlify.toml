@@ -17,16 +17,16 @@
   status = 200
 
 [context.production.environment]
-  VITE_SUPABASE_URL = "@supabase_url"
-  VITE_SUPABASE_ANON_KEY = "@supabase_anon_key"
+  VITE_SUPABASE_URL = "https://sagweewokrpzldjaupea.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhZ3dlZXdva3JwemxkamF1cGVhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4NzIxMTcsImV4cCI6MjA3OTQ0ODExN30.NiGt91S_reaSyfgdmYjHxiW4OFbNUuDFvTk7-IOrDDg"
 
 [context.deploy-preview.environment]
-  VITE_SUPABASE_URL = "@supabase_url"
-  VITE_SUPABASE_ANON_KEY = "@supabase_anon_key"
+  VITE_SUPABASE_URL = "https://sagweewokrpzldjaupea.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhZ3dlZXdva3JwemxkamF1cGVhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4NzIxMTcsImV4cCI6MjA3OTQ0ODExN30.NiGt91S_reaSyfgdmYjHxiW4OFbNUuDFvTk7-IOrDDg"
 
 [context.branch-deploy.environment]
-  VITE_SUPABASE_URL = "@supabase_url"
-  VITE_SUPABASE_ANON_KEY = "@supabase_anon_key"
+  VITE_SUPABASE_URL = "https://sagweewokrpzldjaupea.supabase.co"
+  VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhZ3dlZXdva3JwemxkamF1cGVhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4NzIxMTcsImV4cCI6MjA3OTQ0ODExN30.NiGt91S_reaSyfgdmYjHxiW4OFbNUuDFvTk7-IOrDDg"
 
 [[headers]]
   for = "/*"
